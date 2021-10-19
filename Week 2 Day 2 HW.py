@@ -11,7 +11,7 @@ def listLessThan10(list_1):
 print(listLessThan10([1,11,14,5,8,9]))
 
 def listCombiSort(list_1,list_2):
-    new_list = (list_1 + list_2)
+    new_list = list_1 + list_2
     new_list.sort()
     return(new_list)
 print(listCombiSort([1,2,3,4,5,6],[3,4,5,6,7,8,10]))
